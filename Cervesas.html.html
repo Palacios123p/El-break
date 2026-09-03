@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú de Bebidas - El Break</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+       font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("ELBreak.png") no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+        }
+          header {
+            background-color: #e63946;
+            text-align: center;
+            padding: 20px;
+               }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+    .item {
+    background-color: rgba(34,34,34,0.8);
+    border-radius: 10px;
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+        }
+        .item img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+             .item img:hover {
+            transform: scale(1.1); /* agranda un 10% al pasar el mouse */
+            box-shadow: 0 0 15px rgba(255,255,255,0.6); /* sombra opcional */
+        }
+
+        .item h3 {
+            margin: 10px 0 5px;
+        }
+        .item p {
+            margin: 5px 0;
+        }
+        footer {
+    background-color: #e63946;
+    text-align: center;
+    padding: 15px;
+        }
+        footer a i{
+            font-size: 1.5em;
+            color: #fff;
+            transition: color 0.3s;
+        }
+        footer a i:hover{
+            color: #000;
+        }
+        .social a {
+            margin: 0 10px;
+        }
+        .social a:hover{
+            color: #000; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍹 El Break - Menú de Bebidas 🍸</h1>
+    <nav>
+        <a href="index.html">Cervezas</a> |
+        <a href="botellas.html">Botellas</a>
+    </nav>
+
+    </header>
+
+    <section class="menu">
+        <div class="item">
+            <img src="mojito.jpg" alt="Mojito">
+            <h3>Mojito</h3>
+            <p>Refrescante con hierbabuena</p>
+            <p><strong>L.120</strong></p>
+        </div>
+        <div class="item">
+            <img src="margarita.jpg" alt="Margarita">
+            <h3>Margarita</h3>
+            <p>Clásico con tequila</p>
+            <p><strong>L.150</strong></p>
+        </div>
+        <div class="item">
+            <img src="cerveza.jpg" alt="Cerveza">
+            <h3>Cerveza Nacional</h3>
+            <p>Bien fría</p>
+            <p><strong>L.60</strong></p>
+        </div>
+        <div class="item">
+            <img src="ULtra.jpg" alt="Ultra">
+            <h3>Cerveza Nacional</h3>
+            <p>Bien fría</p>
+            <p><strong>L.80</strong></p>
+        </div>
+         <div class="item">
+            <img src="cerveza.jpg" alt="Cerveza">
+            <h3>Cerveza Nacional</h3>
+            <p>Bien fría</p>
+            <p><strong>L.60</strong></p>
+        </div>
+        <div class="item">
+            <img src="ULtra.png" alt="Ultra">
+            <h3>Michelob Ultra</h3>
+            <p>Botella 12oz, Bien Fria</p>
+            <p><strong>L.80</strong></p>
+        </div>
+         <div class="item">
+            <img src="cerveza.jpg" alt="Cerveza">
+            <h3>Cerveza Nacional</h3>
+            <p>Bien fría</p>
+            <p><strong>L.60</strong></p>
+        </div>
+        <div class="item">
+            <img src="ULtra.jpg" alt="Ultra">
+            <h3>Cerveza Nacional</h3>
+            <p>Bien fría</p>
+            <p><strong>L.80</strong></p>
+        </div>
+         <div class="item">
+            <img src="cerveza.jpg" alt="Cerveza">
+            <h3>Cerveza Nacional</h3>
+            <p>Bien fría</p>
+            <p><strong>L.60</strong></p>
+        </div>
+        <div class="item">
+            <img src="ULtra.jpg" alt="Ultra">
+            <h3>Cerveza Nacional</h3>
+            <p>Bien fría</p>
+            <p><strong>L.80</strong></p>
+        </div>
+         <div class="item">
+            <img src="cerveza.jpg" alt="Cerveza">
+            <h3>Cerveza Nacional</h3>
+            <p>Bien fría</p>
+            <p><strong>L.60</strong></p>
+        </div>
+        <div class="item">
+            <img src="ULtra.jpg" alt="Ultra">
+            <h3>Cerveza Nacional</h3>
+            <p>Bien fría</p>
+            <p><strong>L.80</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Horario: Lunes a Jueves - 12:00 Medio dia a 10:00 PM y Viernes y Sabados- 2:00-12:PM</p>
+        <p> Dirección: 
+        <a href="https://www.google.com/maps/place/El+Break/@15.0431189,-87.9897823,17z/data=!3m1!4b1!4m6!3m5!1s0x8f66777acd746181:0x40e8993fc6712a55!8m2!3d15.0431189!4d-87.987202!16s%2Fg%2F11vlc6d1df?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D" 
+           target="_blank">
+           <i class="fas fa-map-marker-alt"></i>
+        </a>
+    </p>
+    <div class="social">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/elbreak.rl" target="_blank">
+            <i class="fab fa-instagram"></i></a>
+        <!-- WhatsApp -->
+        <a href="https://wa.me/50493191331" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+</footer>
+</body>
+</html>
+
+

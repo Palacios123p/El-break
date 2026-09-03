@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Botellas - El Break</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url("ELBreak.png") no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e63946;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .item {
+            background-color: rgba(34,34,34,0.8);
+            border-radius: 10px;
+            margin: 15px;
+            width: 250px;
+            text-align: center;
+            padding: 15px;
+        }
+        .item img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .item img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255,255,255,0.6);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍾 El Break - Botellas 🍷</h1>
+        <nav>
+            <a href="index.html">Cervezas</a> |
+            <a href="botellas.html">Botellas</a>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <div class="item">
+            <img src="whisky.jpg" alt="Whisky">
+            <h3>Whisky</h3>
+            <p>Etiqueta Roja</p>
+            <p><strong>L.1200</strong></p>
+        </div>
+        <div class="item">
+            <img src="ron.jpg" alt="Ron">
+            <h3>Ron</h3>
+            <p>Flor de Caña</p>
+            <p><strong>L.800</strong></p>
+        </div>
+        <div class="item">
+            <img src="vodka.jpg" alt="Vodka">
+            <h3>Vodka</h3>
+            <p>Smirnoff</p>
+            <p><strong>L.700</strong></p>
+        </div>
+    </section>
+</body>

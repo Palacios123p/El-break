@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenido a El Break</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url("ELBreak.png") no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+        .overlay {
+            background: rgba(0,0,0,0.6);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        .btn {
+            background-color: #e63946;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #d62828;
+        }
+        footer {
+    background-color: #e63946;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.social a, footer a i {
+    margin: 0 10px;
+    font-size: 1.5em; /* tamaño de los íconos */
+    color: #fff;
+    transition: color 0.3s;
+}
+.social a:hover, footer a i:hover {
+    color: #000; /* cambia color al pasar el mouse */
+}
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>🍹 Bienvenido a El Break 🍸</h1>
+        <a href="index.html" class="btn">Ver Menú</a>
+    </div>
+
+    <footer>
+    <p> Dirección: 
+        <a href="https://www.google.com/maps/place/El+Break/@15.0431189,-87.9897823,17z/data=!3m1!4b1!4m6!3m5!1s0x8f66777acd746181:0x40e8993fc6712a55!8m2!3d15.0431189!4d-87.987202!16s%2Fg%2F11vlc6d1df?entry=ttu" 
+           target="_blank">
+           <i class="fas fa-map-marker-alt"></i>
+        </a>
+    </p>
+    <p>Horario: Lunes a jueves - 12:00 Del Medio Dia a 10:00 PM - Viernes y Sabado de 2:00 PM a 2:00 AM</p>
+    <div class="social">
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/elbreak.rl" target="_blank"><i class="fab fa-instagram"></i></a>
+    </a>
+    <!-- WhatsApp -->
+    <a href="https://wa.me/50493191331" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </a>
+</div>
+    </div>
+</footer>
+</body>
+</html>
